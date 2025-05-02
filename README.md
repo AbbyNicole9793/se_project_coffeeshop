@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I plan on adjusting the links to have a better color flow. I also plan on adjusting the css to better fit the layout structure. For example not making a separate container for the footer\_\_social-container.

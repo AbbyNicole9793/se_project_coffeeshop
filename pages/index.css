@@ -1,271 +1,50 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
+@import url(../vendor/normalize.css);
 
-.header {
-  display: flex;
-  flex-direction: column;
-  height: 800px;
-  position: relative;
-  background-image: url(../images/background_header.svg);
-  background-size: cover;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 0;
-}
-.header__image {
-  height: 568px;
-  width: 646px;
-  padding: 0;
-  position: absolute;
-  right: 5px;
-  top: 124px;
-}
+@import url(../blocks/page.css);
 
-.header__title {
-  max-width: 729px;
-  margin-left: 80px;
-  margin-bottom: 28px;
-  padding: 0;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  letter-spacing: -0.6px;
-}
+@import url(../blocks/header.css);
 
-.header__description {
-  margin-left: 80px;
-  max-width: 683px;
-  padding: 0;
-  font-family: "Noto serif", "Times New Roman", serif;
-  font-size: 20px;
-  line-height: 30px;
-}
+@import url(../blocks/nav.css);
 
-.header__footer {
-  margin-top: auto;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #6f6f6f;
-  gap: 0;
-  padding: 0;
-}
+@import url(../blocks/recipes.css);
 
-.header__footer-left {
-  margin-left: 80px;
-  margin-bottom: 40px;
-  padding: 0;
-}
+@import url(../blocks/reservation.css);
 
-.header__footer-right {
-  margin-right: 80px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  padding: 0;
-}
+@import url(../blocks/form.css);
 
-.header__paragraph {
-  margin: 0;
-}
+@import url(../blocks/menu.css);
 
-.nav {
-  display: flex;
-  flex-direction: row;
-}
+@import url(../blocks/card.css);
 
-.nav__logo {
-  position: relative;
-  margin-top: 30px;
-  margin-left: 30px;
-  height: 39px;
-  width: 105px;
-  margin-bottom: 183px;
-  margin-right: auto;
-  padding: 0;
-}
+@import url(../blocks/about.css);
 
-.header__span-accent {
-  display: block;
-  font-family: "Noto serif", "Times New Roman", serif;
-  font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
-  color: #3f96f3;
-}
-
-.nav__links {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  column-gap: 20px;
-  padding: 0;
-  margin-top: 30px;
-  margin-right: 80px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.recipes {
-  background-color: #0a2750;
-  background-image: url(../images/background_recipes.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 100px 80px 215px;
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-}
-
-.recipes__title {
-  max-width: 580px;
-  margin: 0 0 24px;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  color: #fff;
-}
-
-.recipes__subtitle {
-  max-width: 438px;
-  margin: 0 0 80px;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-size: 20px;
-  line-height: 30px;
-  color: #fff;
-}
-
-.recipes__videos {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  list-style: none;
-}
-
-.recipes__iframe {
-  height: 273px;
-  width: 480px;
-  border: none;
-}
-
-.recipes__video-caption {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  padding: 0;
-  margin-top: 24px;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-}
-
-.reservation {
-  background-color: #d9e7ff;
-  background-image: url(../images/background_reservation.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 100px auto 120px;
-}
-
-.reservation__title {
-  margin: 0 0 80px;
-  text-align: center;
-  padding: 100px 0 0;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  color: #000;
-}
-
-.reservation__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 385px;
-  margin: 0 auto;
-}
-
-.form__fieldset {
-  display: flex;
-  flex-direction: column;
-  border: none;
-  width: 100%;
-  max-width: 385px;
-}
-
-.form__label {
-  margin: 0 0 8px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000;
-}
-
-.form__input {
-  border-radius: 4px;
-  max-width: 385px;
-  margin: 0 0 32px;
-  padding: 15px 20px;
-  border: 1px solid #838383;
-  font-size: 20px;
-  line-height: 30px;
-  color: #000;
-}
-
-.form__input::placeholder {
-  color: #838383;
-}
-.form__button {
-  border-radius: 4px;
-  background-color: #1878dc;
-  margin: 0 0 32px;
-  padding: 20px;
-  max-width: 385px;
-  width: 100%;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fff;
-}
-
-.form__button:hover {
-  animation: button linear 1s forwards;
-}
+@import url(../blocks/footer.css);
 
 @keyframes button {
   from {
     background-color: #1878dc;
+    opacity: 100%;
   }
   to {
     background-color: #3f96f3;
+    opacity: 70%;
   }
 }
 
-.form__checkbox {
-  border-radius: 2px;
-  height: 20px;
-  width: 20px;
-  appearance: none;
-  background-color: #1878dc;
+@keyframes nav-link {
+  from {
+    color: #000;
+  }
+  to {
+    color: #2f80ed;
+  }
 }
 
-.form__checkbox:checked {
-  background-image: url(../images/check.svg);
-}
-
-.form__label_checkbox {
-  display: flex;
-  gap: 12px;
-  padding: 0 0 120px;
+@keyframes social-link {
+  from {
+    color: #000;
+  }
+  to {
+    color: #c1c1c1;
+  }
 }

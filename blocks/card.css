@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  max-width: 540px;
+}
+
+.card:first-child {
+  padding: 0 100px 100px 0;
+}
+
+.card__title {
+  margin: 0 0 32px;
+  padding: 0;
+  min-width: 540px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__list-item {
+  list-style-type: none;
+  margin: 0 0 16px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  min-width: 540px;
+  font-family: "Noto Serif" "Times New Roman" serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-item:last-child {
+  margin: 0;
+}
+
+.card__list-divider {
+  border-bottom: solid 1px #000;
+  flex-grow: 1;
+}
