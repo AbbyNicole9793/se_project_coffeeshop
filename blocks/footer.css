@@ -1,7 +1,7 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   padding: 60px 80px;
-  font-family: "Inter" Arial sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .footer__content {
@@ -26,6 +26,13 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  color: #fff;
+}
+
+.footer__social-link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
 }
 
 .footer__list {
@@ -37,8 +44,6 @@
 
 .footer__list-item {
   list-style-type: none;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .footer__social-link:hover {
@@ -54,4 +59,6 @@
 .footer__copyright {
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
+  color: #fff;
 }

@@ -4,6 +4,7 @@
   border: none;
   width: 100%;
   max-width: 385px;
+  padding: 0;
 }
 
 .form__label {
@@ -39,6 +40,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  border: none;
 }
 
 .form__button:hover {
@@ -50,7 +52,8 @@
   height: 20px;
   width: 20px;
   appearance: none;
-  background-color: #1878dc;
+  background-color: #fff;
+  border-color: #838383;
 }
 
 .form__checkbox:checked {
