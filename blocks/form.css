@@ -5,6 +5,7 @@
   width: 100%;
   max-width: 385px;
   padding: 0;
+  margin: 0;
 }
 
 .form__label {
@@ -41,10 +42,18 @@
   line-height: 20px;
   color: #fff;
   border: none;
+  transition: color opacity 0.3s;
 }
 
 .form__button:hover {
-  animation: button linear 1s forwards;
+  from {
+    background-color: #1878dc;
+    opacity: 100%;
+  }
+  to {
+    background-color: #3f96f3;
+    opacity: 70%;
+  }
 }
 
 .form__checkbox {
@@ -58,10 +67,14 @@
 
 .form__checkbox:checked {
   background-image: url(../images/check.svg);
+  background-color: #1878dc;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.form__label_checkbox {
+.form__label_color_checkbox {
   display: flex;
   gap: 12px;
-  padding: 0 0 120px;
+  padding: 0;
 }

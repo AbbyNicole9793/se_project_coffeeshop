@@ -22,7 +22,7 @@
 
 .footer__social-heading {
   padding: 0;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -33,6 +33,8 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .footer__list {
@@ -40,6 +42,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin: 0;
 }
 
 .footer__list-item {
@@ -47,7 +50,12 @@
 }
 
 .footer__social-link:hover {
-  animation: social-link linear 1s forwards;
+  from {
+    color: #000;
+  }
+  to {
+    color: #c1c1c1;
+  }
 }
 
 .footer__social-icon {

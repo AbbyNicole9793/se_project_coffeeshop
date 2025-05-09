@@ -19,32 +19,3 @@
 @import url(../blocks/about.css);
 
 @import url(../blocks/footer.css);
-
-@keyframes button {
-  from {
-    background-color: #1878dc;
-    opacity: 100%;
-  }
-  to {
-    background-color: #3f96f3;
-    opacity: 70%;
-  }
-}
-
-@keyframes nav-link {
-  from {
-    color: #000;
-  }
-  to {
-    color: #2f80ed;
-  }
-}
-
-@keyframes social-link {
-  from {
-    color: #000;
-  }
-  to {
-    color: #c1c1c1;
-  }
-}
