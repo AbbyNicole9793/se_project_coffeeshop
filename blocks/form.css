@@ -62,7 +62,7 @@
   width: 20px;
   appearance: none;
   background-color: #fff;
-  border-color: #838383;
+  border: 1px solid #838383;
 }
 
 .form__checkbox:checked {
@@ -77,4 +77,5 @@
   display: flex;
   gap: 12px;
   padding: 0;
+  justify-content: center;
 }
