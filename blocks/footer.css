@@ -50,12 +50,7 @@
 }
 
 .footer__social-link:hover {
-  from {
-    color: #000;
-  }
-  to {
-    color: #c1c1c1;
-  }
+  color: #c1c1c1;
 }
 
 .footer__social-icon {

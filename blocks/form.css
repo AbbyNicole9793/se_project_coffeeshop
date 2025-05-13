@@ -42,18 +42,10 @@
   line-height: 20px;
   color: #fff;
   border: none;
-  transition: color opacity 0.3s;
 }
 
 .form__button:hover {
-  from {
-    background-color: #1878dc;
-    opacity: 100%;
-  }
-  to {
-    background-color: #3f96f3;
-    opacity: 70%;
-  }
+  background-color: #3f96f3;
 }
 
 .form__checkbox {
